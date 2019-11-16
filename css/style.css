@@ -14,7 +14,7 @@ nav {
 }
 
 section {
-    height: 100VH;
+    height: 100vh;
     width: 100%;
 }
 
@@ -81,7 +81,7 @@ section {
 .trip {
     height: 90vh;
     padding-top: 10vh;
-    background: linear-gradient(rgba(255,255,255,.4), rgba(0,0,0,.25)), url(../assets/me.jpg);
+    background: PaleTurquoise ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,7 +92,7 @@ section {
 .program {
     height: 90vh;
     padding-top: 10vh;
-    background: linear-gradient(rgba(255,255,255,.4), rgba(0,0,0,.25)), url(../assets/code.jpg);
+    background: PowderBlue ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,34 +118,35 @@ section {
 }
 
 .code{
-    background: linear-gradient(rgba(0,0,0,.25  ), rgba(0,0,0,.75)), url(../assets/code.jpg);
+    background: linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,.0)), url(../assets/code.jpg);
     background-size: 100% 100%;
     font-family: 'Source Code Pro', monospace;
 }
 
 .logo{
-    height: 100%;
-    width: 4vw;
+    height: 48px;
+    width: 48px;
     float: left;
-    padding: 0px 24px;
+    padding: 8px 24px;
 }
 
 .code .title,   
 .nature .title{
-    padding: 24px;
+    margin-top: 12vh;
     color: white;
     font-size: 36px;
 }
 .code .desc,
 .nature .desc{
-    padding: 48px;
+    padding: 0 10vh 12vh 10vh;
     color: white;
+    font-size: 18px;
 }
 
 .nature {
     font-family: 'Yeon Sung', cursive;
-    background: linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,.75)), url(../assets/me.jpg);
-    background-size: 100% 100%;
+    background: linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,.75)), url(../assets/sumbing.jpg);
+    background-size: 120% 100%;
 }
 
 .btn {
@@ -232,7 +233,7 @@ section {
 table {
     width: 100%;
     font-family: 'Source Code Pro', monospace;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .btn-contact{
