@@ -455,9 +455,25 @@ form .input-message {
 
 #skill>div {
     margin: auto auto;
-    height: 75%;
-    width: 75%;
     border-radius: 8px;
     background: white;
     box-shadow: 12px 12px 48px rgba(0, 0, 0, .5);
+    padding: 12px;
+    margin: 0px 120px;
+}
+
+#skill>table {
+    width: 50%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+#skill .star {
+    height: 24px;
+    width: 24px;
+    margin: auto auto;
 }
