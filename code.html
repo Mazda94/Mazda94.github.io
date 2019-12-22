@@ -1,133 +1,63 @@
 <html lang="en">
 
 <head>
-    <title>Journey To Be a Professional Programmer</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>My Journey To Be a Fullstack Developer</title>
 </head>
 
 <body>
-    <header>
-        <div class="nav-bar">
-            <a href="index.html">
-                <img src="assets/terminal.png" alt="logo">
-            </a>
-            <ul>
-                <li><a href="#project">Project</a></li>
-                <li><a href="#skill">Skills</a></li>
-                <li><a href="#hacktiv">Hacktiv8 Program</a></li>
-            </ul>
-            </nav>
-    </header>
-    <main>
-        <div id="project">
-            <div>
-                <img src="assets/asdp_splash-min.jpg" alt="img">
-            </div>
-            <div class="project-desc">
-                <h1>ASDP Mobile</h1>
-                <br>
-                <div>
-                    <p><strong>ASDP(Angkutan Sungai Danau dan Penyeberangan) Mobile</strong> adalah sebuah aplikasi berbasis mobile android yang dibangun untuk memenuhi kebutuhan proses bisnis PT.ASDP Indonesia Ferry dalam proses pemesanan/booking tiket
-                        ASDP. Fitur utama aplikasi ini tentunya adalah fitur pemesanan/booking tiket ASDP. Adapun fitur pendukung adalah "Manifest Collector". Fitur "Manifest Collector" adalah fitur yang diperuntukkan bagi pengguna jasa ASDP yang memiliki
-                        jumlah penumpang yang banyak, seperti pengguna jasa penyeberangan Bus antar Pulau. Jadi pengguna bus dapat mengumpulkan data manifest penumpangnya jauh-jauh waktu sebelum tiba di pelabuhan.
-                    </p>
+    <div class="header">
+        <a class="logo" href="index.html">Mazda94</a>
+        <a href="JavaScript:void(0);" class="icon" onclick="showMenu()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <div id="nav" class="nav-bar">
+            <a href="#project">Project</a>
+            <a href="#skill">Skill</a>
+            <a href="#hacktiv8">Hacktiv8 Program</a>
+        </div>
+    </div>
 
-                    <div style="display: inline;">
-                        <a target="_blank" href="assets/asdp_book_info-min.jpg">
-                            <img class="img-sc" src="assets/asdp_book_info-min.jpg" alt="img">
-                        </a>
-                        <a target="_blank" href="assets/asdp_main.jpg">
-                            <img class="img-sc" src="assets/asdp_main-min.jpg" alt="img">
-                        </a>
-                        <a target="_blank" href="assets/asdp_login.jpg">
-                            <img class="img-sc" src="assets/asdp_login-min.jpg" alt="img">
-                        </a>
-                        <a target="_blank" href="assets/asdp_schedule.jpg">
-                            <img class="img-sc" src="assets/asdp_schedule-min.jpg" alt="img">
-                        </a>
-                        <a target="_blank" href="assets/asdp_summary.jpg">
-                            <img class="img-sc" src="assets/asdp_summary-min.jpg" alt="img">
-                        </a>
+    <div id="project">
+        <div class="main-container">
+            <h2>Project</h2>
+            <div class="thumbnail">
+                <div class="row">
+                    <div class="column">
+                        <img src="assets/asdp_splash-min.jpg" alt="Snow" style="width:100%">
+                        <h4><a href="">ASDP Mobile Reservation</a></h3>
                     </div>
-                    <br>
-                    <a href="#">
-                        <button style="margin-top: 24px; float: right;">Baca Selengkapnya</button>
-                    </a>
-                </div>
-            </div>
-
-            <div>
-                <img src="assets/rail_main-min.jpg" alt="img">
-            </div>
-            <div class="project-desc">
-                <h1 class="title">Raillink Mobile</h1>
-                <br>
-                <div>
-                    <p><strong>Raillink Mobile</strong> merupakan aplikasi pemesanan tiket kereta bandara yang dimiliki oleh PT. Raillink. Tidak jauh berbeda dengan ASDP Mobile, aplikasi Raillink Mobile ini diperuntukkan untuk melengkapi sistem ticketing
-                        kereta bandara. Aplikasi ini dibangun menggunakan framework React-Native. Sampai dengan artikel ini ditulis, aplikasi Raillink Mobile ini masih dalam tahap pengembangan. Beberapa fitur baru yang ada dalam aplikasi Raillink ini
-                        adalah fitur cek jadwal keberangkatan pesawat. Melalui fitur baru ini, user dapat melihat jadwal penerbangan dan dapat menentukan tiket yang akan dia beli sesuai dengan jadwal penerbangan.
-                    </p>
-
-                    <div style="display: inline;">
-                        <a target="_blank" href="assets/rail_schedule-min.jpg"><img class="img-sc" src="assets/rail_schedule-min.jpg" alt="img"></a>
-                        <a target="_blank" href="assets/rail_trip-min.jpg"><img class="img-sc" src="assets/rail_trip-min.jpg" alt="img"></a>
-                        <a target="_blank" href="assets/rail_pay-min.jpg"><img class="img-sc" src="assets/rail_pay-min.jpg" alt="img"></a>
-                        <a target="_blank" href="assets/rail_paychan-min.jpg"><img class="img-sc" src="assets/rail_paychan-min.jpg" alt="img"></a>
-                        <a target="_blank" href="assets/rail_confirm-min.jpg"><img class="img-sc" src="assets/rail_confirm-min.jpg" alt="img"></a>
+                    <div class="column">
+                        <img src="assets/rail_splash.jpg" alt="Forest" style="width:100%">
+                        <h4><a href="">Raillink Mobile Reservation</a></h3>
                     </div>
-                    <br>
-                    <a href="#">
-                        <button style="margin-top: 24px; float: right;">Baca Selengkapnya</button>
-                    </a>
+                    <div class="column">
+                        <img src="assets/splash_ektp.jpg" alt="Forest" style="width:100%">
+                        <h4><a href="">ASDP E-KTP Reader</a></h3>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div id="skill">
-            <h1>Skills</h1>
-            <div>
-                <table>
-                    <tr>
-                        <th>Name</th>
-                        <th colspan="5">Scale</th>
-                    </tr>
-                    <tr>
-                        <td>Android Studio(Java)</td>
-                        <td><img class="star" src="assets/star.png" alt="star"></td>
-                        <td><img class="star" src="assets/star.png" alt="star"></td>
-                        <td><img class="star" src="assets/star.png" alt="star"></td>
-                        <td><img class="star" src="assets/star.png" alt="star"></td>
-                        <td><img class="star" src="assets/star-grey.png" alt="star"></td>
-                    </tr>
-                    <tr>
-                        <td>React-Native</td>
-                        <td><img class="star" src="assets/star.png" alt="star"></td>
-                        <td><img class="star" src="assets/star-grey.png" alt="star"></td>
-                        <td><img class="star" src="assets/star-grey.png" alt="star"></td>
-                        <td><img class="star" src="assets/star-grey.png" alt="star"></td>
-                        <td><img class="star" src="assets/star-grey.png" alt="star"></td>
-                    </tr>
-                    <tr>
-                        <td>HTML/CSS</td>
-                        <td><img class="star" src="assets/star.png" alt="star"></td>
-                        <td><img class="star" src="assets/star-grey.png" alt="star"></td>
-                        <td><img class="star" src="assets/star-grey.png" alt="star"></td>
-                        <td><img class="star" src="assets/star-grey.png" alt="star"></td>
-                        <td><img class="star" src="assets/star-grey.png" alt="star"></td>
-                    </tr>
-                    <tr>
-                        <td>PHP / MySQL</td>
-                        <td><img class="star" src="assets/star.png" alt="star"></td>
-                        <td><img class="star" src="assets/star-grey.png" alt="star"></td>
-                        <td><img class="star" src="assets/star-grey.png" alt="star"></td>
-                        <td><img class="star" src="assets/star-grey.png" alt="star"></td>
-                        <td><img class="star" src="assets/star-grey.png" alt="star"></td>
-                    </tr>
-                </table>
-            </div>
+    </div>
+    <div id="skill">
+        <div class="main-container">
+            <h2>Skill</h2>
         </div>
-    </main>
+    </div>
+
+
+    <div id="hacktiv8">
+        <div class="main-container">
+            <h2>Hacktiv8 Program</h2>
+        </div>
+    </div>
+
+    <script src=" main.js "></script>
 </body>
 
 </html>

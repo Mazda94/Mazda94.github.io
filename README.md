@@ -1,2 +1,2 @@
-# Mazda94.github.io
-Website ini merupakan webpage yang berisi mengenai beberapa hal yang saya senangi
+# Mazda94FinalProject.github.io
+Page ini merupakan project final pada program Bootcamp Fullstack Javascript di Hacktiv8  
