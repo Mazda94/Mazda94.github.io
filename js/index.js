@@ -1,4 +1,4 @@
-const endpoint = 'https://api-fancy-todo.herokuapp.com/'
+const endpoint = 'https://api-fancy-todo.herokuapp.com'
 
 const templateTodo = (todo) => {
     const isExpired = new Date(todo.due_date).getTime() < new Date().getTime()
